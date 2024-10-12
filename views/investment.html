@@ -11,6 +11,8 @@
             <ul>
                 <li><p>Mon solde actuel : <span id="solde"></span></p></li>
                 <li><p id="username"></p></li>
+                <li><p>Mon or : <span id="goldQuantity">0</span></p></li>
+                <li><p>Mon argent : <span id="silverQuantity">0</span></p></li>
             </ul>
         </nav>
     </header>
@@ -22,8 +24,8 @@
     <div id="btn-card">
         <button onclick="buyAsset('Au')">J'achète de l'or !</button>
         <button onclick="buyAsset('Ag')">J'achète de l'argent !</button>
-        <button onclick="">Je vends mon or !</button>
-        <button onclick="">Je vends mon argent !</button>
+        <button onclick="sellAsset('Au')">Je vends mon or !</button>
+        <button onclick="sellAsset('Ag')">Je vends mon argent !</button>
     </div>
 
     <script src="/js/api.js"></script>
