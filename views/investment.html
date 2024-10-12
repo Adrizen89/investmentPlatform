@@ -6,7 +6,29 @@
     <title>InvestmentPlatform</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><p>Mon solde actuel : <span id="solde"></span></p></li>
+                <li><p id="username"></p></li>
+            </ul>
+        </nav>
+    </header>
     <h1>InvestmentPlatform</h1>
+    <div id="prices"></div>
+    <p>Prix de l'argent : <span id="silverPrice"></span></p>
+    <p>Prix de l'or : <span id="orPrice"></span></p>
+
+    <div id="btn-card">
+        <button onclick="">J'achète de l'or !</button>
+        <button onclick="">J'achète de l'argent !</button>
+        <button onclick="">Je vends mon or !</button>
+        <button onclick="">Je vends mon argent !</button>
+    </div>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/investment.js"></script>
+
     
 </body>
 </html>
