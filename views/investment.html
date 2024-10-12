@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/investment.css">
     <title>InvestmentPlatform</title>
 </head>
 <body>
@@ -16,17 +17,17 @@
             </ul>
         </nav>
     </header>
-    <h1>InvestmentPlatform</h1>
-    <div id="prices"></div>
-    <p>Prix de l'argent : <span id="silverPrice"></span></p>
-    <p>Prix de l'or : <span id="goldPrice"></span></p>
-
-    <div id="btn-card">
-        <button onclick="buyAsset('Au')">J'achète de l'or !</button>
-        <button onclick="buyAsset('Ag')">J'achète de l'argent !</button>
-        <button onclick="sellAsset('Au')">Je vends mon or !</button>
-        <button onclick="sellAsset('Ag')">Je vends mon argent !</button>
-    </div>
+    <main><h1>InvestmentPlatform</h1>
+        <div id="prices"></div>
+        <p>Prix de l'argent : <span id="silverPrice"></span></p>
+        <p>Prix de l'or : <span id="goldPrice"></span></p>
+    
+        <div id="btn-card">
+            <button onclick="buyAsset('Au')">J'achète de l'or !</button>
+            <button onclick="buyAsset('Ag')">J'achète de l'argent !</button>
+            <button onclick="sellAsset('Au')">Je vends mon or !</button>
+            <button onclick="sellAsset('Ag')">Je vends mon argent !</button>
+        </div></main>
 
     <script src="/js/api.js"></script>
     <script src="/js/investment.js"></script>
