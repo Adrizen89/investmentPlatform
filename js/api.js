@@ -1,6 +1,6 @@
 
 // Utiliser la variable API_KEY
-const apiKey = "goldapi-60fhsm2646jeg-io";
+const apiKey = "";
 
 console.log(apiKey);
 var myHeaders = new Headers();
